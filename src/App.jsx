@@ -38,7 +38,7 @@ let light = ()=>{
 
 let rang = col? " text-sky-900":"text-zinc-900" ;
   return (<>
-    <div className={`${bulb} transition-all duration-1000  h-screen`}>
+    <div className={`${bulb} transition-all duration-1000  h-full`}>
    
       <Header color={col}/>
    <SearchBox update = {update}/>
